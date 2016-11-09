@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#c1b087",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#3c372f"
+  },
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/ic_toolbar_home_n.png",
+      "selectedIconPath": "images/ic_toolbar_home_p.png"
+      
+    },{
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "images/ic_toolbar_hot_n.png",
+      "selectedIconPath": "images/ic_toolbar_hot_p.png"
+      
+    }],
+    "borderStyle": "white",
+    "selectedColor": "#c1b087"
+  }
+
+}
